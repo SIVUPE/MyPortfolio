@@ -10,7 +10,7 @@
     <title>landing section</title>
 </head>
 <body class="container-fluid"   >
-    <nav class="navbar navbar-expand-lg navbar-black bg-cerulean-info lead shadow border border-dark">
+    <nav class="navbar navbar-expand-lg navbar-black bg-cerulean-info lead shadow border border-dark position-relative">
         <div class="container-fluid">
             <a class="navbar-brand" href="#">
                 <img src="https://i.postimg.cc/pdt2R1Cv/SPlogo.jpg" width="115px" flex="justify-content-start" alt="logo" class="img-fluid" loading="lazy">
@@ -22,22 +22,22 @@
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="./index.html">HOME</a>
+                <a class="nav-link active" aria-current="page" href="#home">HOME</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="#about">ABOUT</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">SKILLS/EDUCATION</a>
+                <a class="nav-link" href="#skills/education">SKILLS/EDUCATION</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">PROJECTS</a>
+                <a class="nav-link" href="#projects">PROJECTS</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">REVIEWS</a>
+                <a class="nav-link" href="#testimonial">Testimonials</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">CONTACT</a>
+                <a class="nav-link" href="#contact">CONTACT</a>
               </li>
             </ul>
            
@@ -45,7 +45,7 @@
         </div>
     </nav>
     <main class="container-fluid">
-        <section class="container mt-5 pt-5"id="#home">
+        <section class="container mt-5 pt-5"id="home">
             <div class="row vh-100 ">
                 <div class="col-6 align-content-center">
                     <h1 class="display-6">
@@ -57,29 +57,54 @@
                     <img src="https://i.postimg.cc/52jhLfj3/DSC-0283.jpg"class="img-fluid w-50 rounded-top-pill rounded-bottom-circle" loading="lazy" alt="profile ">
                 </div>
             </div>
-            
-            
-            
         </section>
-        <section class="container-fluid vh-100"id="#about">
+        <section class="container-fluid border-top border-black border-4 vh-100"id="about">
             <div class="row container-fluid h-100">
-                <div class="col mt-auto bg-danger" style="height: 80% !important; position: relative;" >
-                    <h1>ABOUT</h1>
+                <h1>ABOUT</h1>
+                <div class="col mt-auto bg-danger" font-weight="bold" style="height: 60% !important; position: relative;" >
+                    <p class="">
+                        <h1>
+                            Greetings!
+                        </h1>
+                            <span>
+                             I'm Sivuyisiwe Peter, a passionate and aspiring Full Stack Developer with a relentless curiosity for technology and a strong desire to create innovative digital solutions. I firmly believe that in today's fast-paced world, technology plays a pivotal role in shaping the future, and I am committed to being a part of that transformation
+                            </span>
+                        <h1>
+                            MY JOURNEY :
+                        </h1>
+                        <span>
+                            My journey in the world of development began with a love for problem-solving. I was captivated by the idea of building websites and applications from scratch and understanding how they work. As I delved deeper into this realm, I started to explore various programming languages and frameworks, such as HTML, CSS, JavaScript, and more. This journey has been both challenging and rewarding, and I thrive on every new challenge that comes my way.
+                        </span>
+                    </p>
                 </div>
-                <div class="col bg-danger-subtle"style="height: 80%; !important">
-                    
+                <div class="col bg-dark"style="height: 60%; !important">
+                    <img src="https://i.postimg.cc/fLgdV7h7/1000094545.jpg"class="img-fluid w-50 mt-lg-5 rounded-circle"loading="lazy" alt="profile ">
                 </div>
             </div> 
         </section>
-
-        
-        <section class="container"id="#Skills/Education">
+        <section class="container-fluid"id="Skills/Education">
             <div class="row">
                 <div class="col">
                     <h1>Skills/Education</h1>
                 </div>
                
             </div>
+
+        </section>
+        <section class="container-fluid" id="contact">
+            <div class="row">
+
+            </div>
+            <form id="contact" action=" https://formspree.io/forms/mknlkrwz/submissions">
+                <input class="contact-input " type="text" name="full_name" id="full_name" placeholder="Full Name" required>
+                <input class="contact-input" type="tel" name="contact_No" id="contact_No" placeholder="contact No" required>
+                <input class="contact-input" type="text" name="Email" id="Email" placeholder="Email" required>
+                <textarea class="contact-input" name="message" id="message" placeholder="Type your message here" ></textarea>
+                <button name="submit form button" class="button btn" type="submit">submit infomation</button>
+                
+
+
+            </form>
 
         </section>
     <!--script link-->
