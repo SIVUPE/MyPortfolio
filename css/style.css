@@ -46,7 +46,68 @@ h2{
 }
 
 .display-6{
-    margin-top: 170px;
-    
+    margin-top: 170px;  
+}
+#contact_No{
+    width: 50%;
+    height: 40px;
+    /* border: none; */
+    padding: 5px;
+    outline: none;
+    display: block;
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 20px;
+    background-color: transparent;
+    color: var(--primary-text-color);
+    font-family: 'Poppins', sans-serif;
+    border-bottom: 5px solid var(--primary-color);
+}
+textarea{
+    width: 50%;
+    height: 40px;
+    /* border: none; */
+    padding: 5px;
+    outline: none;
+    display: block;
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 20px;
+    background-color: transparent;
+    color: var(--primary-text-color);
+    font-family: 'Poppins', sans-serif;
+    border-bottom: 5px solid var(--primary-color);
+}
+
+#Email{
+    width: 50%;
+    height: 40px;
+    /* border: none; */
+    padding: 5px;
+    outline: none;
+    display: block;
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 20px;
+    background-color: transparent;
+    color: var(--primary-text-color);
+    font-family: 'Poppins', sans-serif;
+    border-bottom: 5px solid var(--primary-color);
+}
+
+#full_name{
+    width: 50%;
+    height: 40px;
+    /* border: none; */
+    padding: 5px;
+    outline: none;
+    display: block;
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 20px;
+    background-color: transparent;
+    color: var(--primary-text-color);
+    font-family: 'Poppins', sans-serif;
+    border-bottom: 5px solid var(--primary-color);
 }
 
