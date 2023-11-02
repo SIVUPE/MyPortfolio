@@ -18,6 +18,10 @@ header {
     padding: 20px 50px;
     box-shadow: rgb(4, 4, 137);
 }
+nav {
+    background-color:rgb(143, 62, 53)!important;
+    color: black;
+}
 #nav-title {
     margin-right: auto;
     font-size: 1.5em;
@@ -141,4 +145,18 @@ textarea{
 #cardtext{
     color: rgb(143, 62, 53);
 }
-  
+#about_img{
+    width: 70%;
+}
+
+/* @media (max-width: 800px) {
+    .row {
+      flex-direction: column-reverse;
+    }
+    .col-25 {
+      margin-bottom: 20px;
+    }
+  } */
+  #card_mobi{
+    
+  } 
