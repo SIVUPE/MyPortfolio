@@ -62,6 +62,8 @@ h2{
     color: var(--primary-text-color);
     font-family: 'Poppins', sans-serif;
     border-bottom: 5px solid var(--primary-color);
+    
+    
 }
 textarea{
     width: 50%;
@@ -109,5 +111,34 @@ textarea{
     color: var(--primary-text-color);
     font-family: 'Poppins', sans-serif;
     border-bottom: 5px solid var(--primary-color);
+
 }
 
+#contact {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;  
+
+}
+.btn {
+    background-color: #0f0a0d;
+    color: white;
+    padding: 12px;
+    margin: 10px 0;
+    border: none;
+    width: 30%;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 17px;
+  }
+  
+.btn:hover {
+    background-color:rgb(146, 78, 70);
+}
+#cardtext{
+    color: rgb(143, 62, 53);
+}
+  
